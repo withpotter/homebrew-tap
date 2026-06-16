@@ -21,7 +21,7 @@ cask "box" do
   url "https://github.com/withpotter/box-cli/releases/download/v#{version}/box-bundle-#{version}.tar.gz"
   name "Box CLI"
   desc "Activate your license and run your own Box (commerce engine + console)"
-  homepage "https://withpotter.com"
+  homepage "https://github.com/withpotter/box-cli"
 
   # The bundle extracts to a single staging directory containing dist/,
   # node_modules/, template/, assets/ and the `box` launcher. Symlink the launcher
