@@ -16,12 +16,12 @@
 # `url` + `sha256` are stamped by `scripts/release.sh` against the published bundle.
 cask "box" do
   version "0.1.0-alpha.10"
-  sha256 "f53b894e77cdd6388fb8d3ce4c16c2cad41131247517f51649f6fa61845b68cc"
+  sha256 "5389c673b9f6dec34890beb1c33c7a25f8b8e421f95086131e7265c39b6598da"
 
-  url "https://github.com/withpotter/box-cli/releases/download/v#{version}/box-bundle-#{version}.tar.gz"
+  url "https://github.com/withpotter/box-distribution/releases/download/v#{version}/box-bundle-#{version}.tar.gz"
   name "Box CLI"
   desc "Activate your license and run your own Box (commerce engine + console)"
-  homepage "https://github.com/withpotter/box-cli"
+  homepage "https://github.com/withpotter/box-distribution"
 
   # The bundle extracts to a single staging directory containing dist/,
   # node_modules/, template/, assets/ and the `box` launcher. Symlink the launcher
