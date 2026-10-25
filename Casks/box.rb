@@ -15,8 +15,8 @@
 #
 # `url` + `sha256` are stamped by `scripts/release.sh` against the published bundle.
 cask "box" do
-  version "0.1.0-alpha.84"
-  sha256 "37db839feab54f49db117c12fa3500caa1869cd4830efd18c3400049e98427b3"
+  version "0.1.0-alpha.85"
+  sha256 "b891d6a3d48e0eadec51a5c711fd0638132ea96f3df770ba5f9249bd09d718f3"
 
   url "https://github.com/withpotter/box-distribution/releases/download/v#{version}/box-bundle-#{version}.tar.gz"
   name "Box CLI"
